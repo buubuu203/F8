@@ -1,0 +1,195 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.box-logo {
+	height: 100%;
+	flex: 1;
+
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 100%;
+	width: 50px;
+	padding: 5px;
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 0.6rem;
+}
+
+.login {
+	height: 100%;
+	flex: 1;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header {
+	height: 50px;
+	display: flex;
+	box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.273);
+	align-items: center;
+}
+
+.btn-login {
+	height: 50%;
+	width: fit-content;
+	background-color: #f05123;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	color: aliceblue;
+	font-size: 0.8rem;
+	margin-right: 20px;
+	font-weight: 400;
+	border-radius: 100rem;
+}
+
+.slogan {
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+
+.search-bar {
+	height: 60%;
+	width: 100%;
+	flex: 1;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 1px gray;
+	border-radius: 100px;
+}
+
+.ti-search {
+	margin-right: 10px;
+}
+
+.search {
+	width: 100%;
+	height: 50%;
+	border-radius: 15px;
+	border: none;
+	outline: none;
+}
+
+.body_container {
+	display: flex;
+	background-color: #ffffff;
+	width: 100%;
+	height: 80vh;
+	margin-top: 10px;
+}
+
+.navigations {
+	background-color: #ffffff;
+	height: 100%;
+	width: 100px;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.courses {
+	background-color: rgb(255, 255, 255);
+	height: 100%;
+	width: 100%;
+	flex: 1;
+}
+
+.new-button {
+	margin-top: 30px;
+	height: 50px;
+	width: 50px;
+	justify-content: center;
+	background-color: #1473e6;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	color: aliceblue;
+
+	font-weight: 400;
+	font-size: 20px;
+	border-radius: 100%;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	flex-direction: column;
+	font-weight: 600;
+	gap: 5px;
+	border-radius: 20px;
+	width: 70px;
+	height: 70px;
+	font-size: 0.7rem;
+}
+
+.information {
+	display: flex;
+}
+
+p.information {
+	font-size: 15px;
+	color: gray;
+	font-weight: 300;
+}
+
+h1.information {
+	font-weight: 600;
+	font-size: 35px;
+}
+
+a.information {
+	color: #f05123;
+	font-size: 15px;
+	justify-content: end;
+	margin-right: 30px;
+}
+
+.course .title {
+	color: black;
+	font-size: 0.8rem;
+	font-weight: 600;
+}
+
+.course p {
+	color: gray;
+	font-size: 10px;
+}
+
+.course img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.list_courses {
+	gap: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.course {
+	flex: 1;
+	min-width: 280px;
+	max-width: 250px;
+}
